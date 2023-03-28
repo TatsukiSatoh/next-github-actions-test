@@ -11,6 +11,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+  const test = "test param"
   return (
     <html lang="en">
       <body>{children}</body>
